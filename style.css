@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    color:#bcb5a8;
+    margin:0;
+    font-family:"Monserrat",sans-serif;
+    padding: 350px;
+    padding-top: 20px;
+    font-size:larger;
+    background-image:url(ai-generated-8524928_1920.png);
+    background-size:cover;
+    background-position:none;
+    scroll-behavior: smooth;
+
+}
+nav {
+    font-size:115%;
+    position:fixed;
+    top: 0;
+    left: 0px;
+    width: 20%;
+    background-color:rgba(59, 58, 56, 0.462);
+    box-shadow: 0 0 5px #645f54;
+}
+.menu-item {
+    text-decoration:none;
+    color: #afa598;
+    padding: 50px;
+    display:flex;
+}
+.menu-item:hover {
+    background-color: #645f54;
+    transition: all 0.8s ease-in-out;
+  }
+header{   
+    font-family:monospace;
+    color:#bcb5a8;
+    text-align:center;
+    padding:10px;
+    margin-bottom:20px;;
+    border: 5px solid #0000004c;
+    background-color: #1e1d1b2f;
+}
+section{
+    padding: 50px;
+    border: 5px solid #0000004c;
+    margin-bottom:20px;
+}
+#Acerca-de-mi{
+    text-align: center;
+    background-color: rgba(59, 58, 56, 0.462);
+}
+#Habilidades{
+    background-color: rgba(59, 58, 56, 0.462);
+}
+#Habilidades ul {
+    list-style:none;
+    padding: 10px;
+}
+#Habilidades ul li{
+    display:inline-block;
+    padding: 0px;
+    border: 1px solid #bcb5a8;
+    border-radius:5px;
+    margin-right: 5px;
+}
+#Experiencia{
+    background-color: rgba(59, 58, 56, 0.462);
+}
+#Experiencia ul{
+    list-style:decimal-leading-zero;
+    padding: 10px;
+    margin: 10px;
+}
+#Experiencia ul li {
+    margin-bottom:10px ;
+ 
+}
+#Proyectos{
+    background-color: rgba(59, 58, 56, 0.462);
+}
+#Proyectos ul{
+    list-style:decimal-leading-zero;
+    padding: 10px;
+    margin: 10px;
+}
+#Proyectos ul li a{
+    text-decoration: none;
+    color:#645f54
+}
+#Proyectos ul li a:hover{
+    text-decoration:underline;
+}
+#contacto{
+    font-family: monospace;
+    list-style:none;
+    padding: 10px;
+    margin-top:10px;
+    background-color: rgba(59, 58, 56, 0.462);
+}
+#contacto li{
+    list-style:none;
+    display:inline-block;
+    padding: 10px;
+}
+#contacto a{
+    list-style:none;
+    display: inline-block;
+    padding: 10px;
+}
+.fa{
+    color:#bbb3a6;
+    text-decoration: none;
+}
+footer {
+    background-color: #bcb5a8;
+    color:#bcb5a8;
+    text-align:center;
+    padding: 10px;
+}
+#redes-sociales {
+    font-family:monospace;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+@keyframes nomre-animación {
+    
+}
