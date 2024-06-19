@@ -1,38 +1,120 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi Porfolio web_by alan Soto</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <style>
+            /* Estilos básicos del título */
+            h1 {
+              text-align: center;
+              margin-top: 50px;
+              opacity: 0; /* Inicialmente oculto */
+              animation: aparecer 4s forwards; /* Animación de aparecer durante 2 segundos */
+            }
+            h2{
+                text-align: center;
+                margin-top: 50px;
+                opacity: 4s; /* Inicialmente oculto */
+                animation: aparecer 8s forwards; /* Animación de aparecer durante 2 segundos */
+            }
+          
+            /* Definición de la animación */
+            @keyframes aparecer {
+              0% {
+                opacity: 0; /* Inicio: oculto */
+              }
+              100% {
+                opacity: 1; /* Fin: completamente visible */
+              }
+            }
+          </style>
     </head>
     <body>
         <header>
-            <h1> ALAN SOTO </h1>
-            <h2>Mi Profesión</h2> 
+            <nav>
+                <ul>
+                    <a class="menu-item" href="#contacto">Contacto</a>
+                    <a class="menu-item" href="#Acerca-de-mi">Acerca de mí</a>
+                    <a class="menu-item" href="#Habilidades">Habilidades</a>
+                    <a class="menu-item" href="#Experiencia">Experiencia</a>
+                    <a class="menu-item" href="#Proyectos">Proyectos</a>
+
+                </ul>
+            </nav>
+            <h1>ALAN SOTO</h1>
+            <h2>INFORMACION PERSONAL</h2>
+            <h2>MI PROFESION</h2> 
         </header>
         <main>
             <section>
-                <h2>Acerca de mi</h2>
+            <section id="contacto">
+                <h3>CONTACTO</h3>
+                    <ul>
+                        <li><a href="Email: alansottsz@gmail.com" class="fa fa-email">Email</a></li>
+                        <li><a href="tel:+595982852914" class="fa fa-telefono">Telefono</a></li>
+                            <ul id="redes-sociales">
+                                <h3>REDES:</h3>
+                                <li><a href="https://www.instagram.com/alannsott?igsh=
+                                MTdlcjQ1c2Z6MTV1aQ%3D%3D&utm_source=qr" class="fa fa-instagram"> :Instagram</a></li>
+                                <li><a href="https://www.facebook.com/alan.soto.1829/" class="fa fa-facebook"> :Facebook</a></li>
+                            </ul>
+                    </ul>
+            </section>
+            <section id="Acerca-de-mi">
+                <h3>ACERCA DE MI</h3>
                 <p>
-
+                    Como desarrollador web junior, fusiono mi pasión por el diseño y la
+                    programación para crear experiencias web excepcionales. Me esfuerzo por
+                    cada línea de código y cada detalle de diseño para asegurarme de que mis
+                    sitios web sean visualmente atractivos, funcionales y accesibles para
+                    todos. Estoy comprometido a seguir aprendiendo y mejorando continuamente
+                    mientras busco oportunidades desafiantes que amplíen mi experiencia en el
+                    desarrollo web.
                 </p>
 
             </section>
-            <section>
-                <h3>Habilidades</h3>
+            <section id="Habilidades">
+                <h3>HABILIDADES</h3>
                     <ul>
                         <li>Python</li>
                         <li>Java</li>
                     </ul>
             </section>
-            <section>
-               <h4>Experiencia</h4>
+            <section id="Experiencia">
+               <h3>EXPERIENCIA</h3>
                <ul>
                 <li>
-                     <b>Empresa</b>
+                     <b>Empresa X</b>
                      <ul>
-                        <li>Logro</li>
+                        <li>Logro 1</li>
+                        <li>Logro 2</li>
+                        <li>Logro 3</li>
                      </ul>
                 </li>
                </ul>
+            </section>
+            <section id="Proyectos">
+                <h3>PROYECTOS</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=T6eK-2OQtew">Proyecto 1</a></li>
+                        <p>
+                            Descripción
+                        </p>
+                    <li><a href="https://developer.mozilla.org/es/">Proyecto 2</a></li>
+                            <p>
+                                Descripción
+                            </p>
+                    <li><a href="https://github.com/">Proyecto 3</a></li>
+                            <p>
+                                Descripción
+                            </p>
+                </ul>
             </section>
         </main>
         <foster>
